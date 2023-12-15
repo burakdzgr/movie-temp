@@ -105,3 +105,18 @@ dropdownButton.addEventListener('click', () => {
 });
 
 toggleDropdown();
+
+function toggleMenu() {
+  const mobileNav = document.getElementById('mobile-nav');
+  mobileNav.classList.toggle('hidden');
+}
+
+function toggleUserDropdown() {
+  const userDropdown = document.querySelector('.user-dropdown');
+  userDropdown.classList.toggle('hidden');
+}
+function toggleSearch() {
+  const searchInput = document.querySelector('.header-search-box input');
+  searchInput.classList.toggle('hidden');
+  searchInput.classList.toggle('block');
+}

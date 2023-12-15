@@ -1,7 +1,7 @@
 // common card slider start
 var bannerSlider = document.querySelectorAll('[data-swiper="banner-detail-slider"]')
 var swiper = new Swiper(".swiper.swiper-card", {
-  slidesPerView: 12,
+  slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
   autoplay: true,
@@ -23,7 +23,7 @@ var swiper = new Swiper(".swiper.swiper-card", {
       spaceBetween: 10,
     },
     1025: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 10,
     },
     1500: {
@@ -201,7 +201,7 @@ function productThumbslider() {
     const slider_thumb = {
       direction: "horizontal",
       spaceBetween: 24,
-      slidesPerView: 4,
+      slidesPerView: 2,
       loop: true,
       loopedSlides: 8,
       slideToClickedSlide: true,
@@ -240,7 +240,7 @@ function productThumbslider() {
 
   
 var swiper = new Swiper(".swiper.swiper-actors", {
-  slidesPerView: 5,
+  slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
   autoplay: true,
@@ -258,11 +258,11 @@ var swiper = new Swiper(".swiper.swiper-actors", {
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 10,
     },
     1025: {
-      slidesPerView: 3,
+      slidesPerView: 11,
       spaceBetween: 10,
     },
     1500: {
@@ -286,7 +286,7 @@ var swiper = new Swiper(".swiper.swiper-tabs", {
   },
 });
 var swiper = new Swiper(".swiper.swiper-movie-categories-card", {
-  slidesPerView: 5,
+  slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
   // autoplay: true,

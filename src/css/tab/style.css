@@ -32,13 +32,6 @@
   padding: 0 2.19rem;
   margin-bottom: 0.94rem;
 }
-.tab-block .nav-tabs {
-  padding: 0 2.19rem;
-  gap: 2.81rem;
-}
-.tab-block .nav-tabs .nav-link {
-  padding: 1rem 0;
-}
 .tab-block .tab-content .tab-pane li {
   margin-bottom: 1.25rem;
 }
