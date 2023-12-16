@@ -16,6 +16,7 @@ module.exports = {
         'primary' : '#e50914',
         'warning' : '#6c757d',
         'subtitle' : '#ffffffcc',
+        'bodyColor' : '#d1d0cf',
         'star' : '#ecba12',
     },
       borderColor: {

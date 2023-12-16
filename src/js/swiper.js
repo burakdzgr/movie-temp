@@ -27,7 +27,7 @@ var swiper = new Swiper(".swiper.swiper-card", {
       spaceBetween: 10,
     },
     1500: {
-      slidesPerView: 5,
+      slidesPerView: 6,
       spaceBetween: 10,
     },
   },
@@ -262,12 +262,12 @@ var swiper = new Swiper(".swiper.swiper-actors", {
       spaceBetween: 10,
     },
     1025: {
-      slidesPerView: 11,
+      slidesPerView: 8,
       spaceBetween: 10,
     },
     1500: {
       slidesPerView: 11,
-      spaceBetween: 1,
+      spaceBetween: 10,
     },
   },
 });

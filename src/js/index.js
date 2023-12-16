@@ -116,7 +116,16 @@ function toggleUserDropdown() {
   userDropdown.classList.toggle('hidden');
 }
 function toggleSearch() {
-  const searchInput = document.querySelector('.header-search-box input');
-  searchInput.classList.toggle('hidden');
-  searchInput.classList.toggle('block');
+  const searchInput = document.querySelector(`.search-input`)
+  event.stopPropagation();
+  if (!event.target.closest('.search-input')) {
+
+    searchInput.classList.toggle('active');
+
+    searchInput.classList.contains('active')
+      ? document.addEventListener('click', toggleSearch)
+      : document.removeEventListener('click', toggleSearch);
+  } 
 }
+
+searchIcon.addEventListener('click', toggleSearch);

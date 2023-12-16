@@ -5,7 +5,7 @@
   "main": "postcss.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "live-server",
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
     "build": "postcss styles.css -o dist/styles.css"
   },
   "keywords": [],
